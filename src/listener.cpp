@@ -3,7 +3,7 @@
 
 void chatterCallback(const std_msgs::String::ConstPtr& msg)
 {
-    ROS_INFO("zhsyi heard: [%s]", msg->data.c_str());
+    ROS_INFO("baihaisheng heard: [%s]", msg->data.c_str());
 }
 
 int main(int argc, char **argv)
